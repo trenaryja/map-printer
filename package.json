@@ -1,0 +1,27 @@
+{
+	"name": "mapprinter",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"scripts": {
+		"build": "webpack",
+		"watch": "webpack --watch",
+		"start": "webpack-dev-server --open"
+	},
+	"author": "Justin Trenary",
+	"license": "MIT",
+	"dependencies": {
+		"mapbox-gl": "^1.5.0"
+	},
+	"devDependencies": {
+		"@fortawesome/fontawesome-free": "^5.11.2",
+		"clean-webpack-plugin": "^3.0.0",
+		"css-loader": "^3.2.0",
+		"html-webpack-plugin": "^3.2.0",
+		"jquery": "^3.4.1",
+		"style-loader": "^1.0.0",
+		"webpack": "^4.41.2",
+		"webpack-cli": "^3.3.10",
+		"webpack-dev-server": "^3.9.0"
+	}
+}
