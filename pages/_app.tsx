@@ -3,7 +3,7 @@ import Head from "next/head";
 import { AppProps } from "next/app";
 import { ThemeProvider, Theme, StyledEngineProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import theme from "../src/styles/theme";
+import theme from "../src/styles";
 
 declare module "@mui/styles/defaultTheme" {
 	interface DefaultTheme extends Theme {}
